@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materials</title>
+</head>
+<body>
+
+    <a-assets>
+        <img id="brick_diff" src="/brick/whitewashed_brick_diff_1k.png" alt="">
+        <img  id="brick_rough" src="/brick/whitewashed_brick_rough_1k.png" alt="">
+        <img  id="brick_nor" src="/brick/whitewashed_brick_nor_gl_1k.png" alt="">
+        <img  id="brick_ao" src="/brick/whitewashed_brick_ao_1k.png" alt="">
+
+        <img id="plank_diff" src="/Plank/plank_flooring_04_diff_4k.png" alt="">
+        <img  id="plank_rough" src="/Plank/plank_flooring_04_rough_4k.png" alt="">
+        <img  id="plank_nor" src="/Plank/plank_flooring_04_nor_gl_4k.png" alt="">
+        <img  id="plank_ao" src="/Plank/plank_flooring_04_ao_4k.png" alt="">
+
+    </a-assets>
+    <a-scene background="color: #FAFAFA">
+       <a-entity position="0 0 0">
+        <a-sphere position="3 1.25 -5" radius="1.25" color="#fff" material="roughnes:0.5; metalness:0.5; src:#brick_diff; roughnessMap: #brick_rough" shadow></a-sphere>
+        <a-sphere position="0 1.25 -5" radius="1.25" color="#fff" material="roughnes:0.5; metalness:0.5; src:#plank_diff; roughnessMap: #plank_rough normalMap: #plank_nor ambientOcclusionMap: #plank_ao" shadow></a-sphere>
+        <a-sphere position="-3 1.25 -5" radius="1.25" color="#fff" material="roughnes:0.5; metalness:0.5, src:#brick_diff; roughnessMap: #brick_rough" shadow></a-sphere>
+       </a-entity>
+
+       <a-entity position="14 0 0">
+          <a-sphere position="3 1.25 -5" radius="1.25" color="#EF2D5E" material="roughnes:0; metalness:0" shadow></a-sphere>
+        <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E" material="roughnes:0.5; metalness:0.5" shadow></a-sphere>
+        <a-sphere position="-3 1.25 -5" radius="1.25" color="#EF2D5E" material="roughnes:1; metalness:1" shadow></a-sphere>
+       </a-entity>
+
+        <a-entity position="-14 0 0">
+          <a-sphere position="3 1.25 -5" radius="1.25" color="#EF2D5E" material="roughnes:0.5; metalness:0" shadow></a-sphere>
+        <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E" material="roughnes:0.5; metalness:0" shadow></a-sphere>
+        <a-sphere position="-3 1.25 -5" radius="1.25" color="#EF2D5E" material="roughnes:0.5; metalness:0" shadow></a-sphere>
+       </a-entity>
+
+       <a-entity light="intensity:0.5; type: ambient"></a-entity>
+       <a-entity light="intensity:7; type: point" position="1.5,1.7,-2.5" ></a-entity>
+     
+        
+        <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4" shadow></a-plane>
+    </a-scene>
+    <script type="module"  src="/src/main.js"> </script>
+    
+</body>
+</html>
