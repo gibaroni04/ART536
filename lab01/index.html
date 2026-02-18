@@ -9,18 +9,33 @@
 
     <a-assets>
         <img id="floor_diff" src="/floor texture/wood_floor_diff_4k.jpg" alt=""> 
+        <img id="floor_gl" src="/floor texture/wood_floor_nor_gl_4k.jpg" alt="">
+        <img id="floor_rough" src="/floor texture/wood_floor_rough_4k.jpg" alt="">
+        <img id="floor_ao" src="/floor texture/wood_floor_ao_4k.jpg" alt="">
+
+        <img id="rosewood_diff" src="/wood accents/rosewood_vaneer1_diff_4k.jpg" alt=""> 
+        <img id="rosewood_gl" src="/wood accents/rosewood_vaneer1_nor_gl_4k.jpg" alt="">
+        <img id="rosewood_rough" src="/wood accents/rosewood_vaneer1_rough_4k.jpg" alt="">
+        <img id="rosewood_ao" src="/wood accents/rosewood_vaneer1_ao_4k.jpg" alt="">
+
+       <img id="teddy_diff" src="/bed texture/curly_teddy_natural_diff_4k.jpg" alt=""> 
+        <img id="teddy_gl" src="/bed texture/curly_teddy_natural_nor_gl_4k.jpg" alt="">
+        <img id="teddy_rough" src="/bed texture/curly_teddy_natural_rough_4k.jpg" alt="">
+        <img id="teddy_ao" src="/bed texture/curly_teddy_natural_ao_4k.jpg" alt="">
 
     </a-assets> 
 
     <a-scene background="color: #FAFAFA">
         <a-sky color="#a0e2fa"></a-sky>
-        <a-plane color="#614119" position="0 0.004 -5" rotation="-90 0 0" width="3.66" height="3.35">floor</a-plane>
+        <a-plane color="#614119" position="0 0.004 -5" rotation="-90 0 0" width="3.66" height="3.35" material="color: #fff; src: #floor_diff; roughness: 1; roughnessMap:
+        #floor_rough; ambientOcclusionMap: #floor_ao;">floor</a-plane>
         <a-plane color="#f2f2f2" position="0 1.832 -5" rotation="90 0 0" width="3.66" height="3.35">ceiling</a-plane>
 
-        <a-circle>light fixture</a-circle>
         
-        <a-box position="0.87 0.30 -3.89" rotation="0 0 0" color="#A35E17" height="0.6" width="1.83">bed</a-box>
-        <a-box position="0.87 0.74 -3.89" rotation="0 0 0" color="#FCFCFC" height="0.3" width="1.83">matress</a-box>
+        <a-box position="0.87 0.30 -3.89" rotation="0 0 0" color="#A35E17" height="0.6" width="1.83" material="color: #fff; src: #rosewood_diff; roughness: 1; roughnessMap:
+        #rosewood_rough; ambientOcclusionMap: #rosewood_ao;">bed</a-box>
+        <a-box position="0.87 0.74 -3.89" rotation="0 0 0" color="#FCFCFC" height="0.3" width="1.83" material="color: #fff; src: #teddy_diff; roughness: 1; roughnessMap:
+        #teddy_rough; ambientOcclusionMap: #teddy_ao;">matress</a-box>
         <a-box position="0.87 0.21 -3.94" rotation="0 0 0" color="#A35E17" height="0.3" width="1.5" >bed drawer</a-box>
         <a-box position="0.87 0.48 -3.94" rotation="0 0 0" color="#A35E17" height="0.19" width="0.50" >drawer</a-box>
         <a-box position="0.24 0.48 -3.94" rotation="0 0 0" color="#A35E17" height="0.19" width="0.50" >drawer2</a-box>
