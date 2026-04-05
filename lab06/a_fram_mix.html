@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A-Frame-Mixin</title>
+    <script src="https://aframe.io/releases/1.7.1/aframe.min.js"></script>
+</head>
+<body>
+    <a-scene>
+        <a-assets>
+            <a-mixin id="wall" geometry="primitive: box; width: 2; height: 5; depth: 0.3"></a-mixin>
+            <a-mixin id="column" geometry="primitive: cylinder; radius: 0.5; height: 5"></a-mixin>
+            <a-mixin id="primary" material="color: white"></a-mixin>
+            <a-mixin id="secondary" material="color: gray"></a-mixin>
+        </a-assets>
+        <a-entity mixin="wall primary" position="0 2.5 -5" geometry="width: 10"></a-entity>
+        <a-entity mixin="wall primary" position="-5 2.5 0" geometry="width: 10" rotation="0 90 0"></a-entity>
+        <a-entity mixin="wall primary" position="0 2.5 5" geometry="width: 10" ></a-entity>
+        <a-entity mixin="wall primary" position="5 2.5 0" geometry="width: 10" rotation="0 90 0" ></a-entity>
+        <a-entity mixin="column primary" position="0 2.5 0"></a-entity>
+
+    </a-scene>
+</body>
+</html>

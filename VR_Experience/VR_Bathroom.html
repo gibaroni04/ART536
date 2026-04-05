@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VR_Bathroom</title>
+    <script src="https://aframe.io/releases/1.7.1/aframe.min.js"></script>
+</head>
+<body>
+    <a-scene> 
+        <a-assets>
+            <a-mixin id="wall" geometry="primitive: box; width: 2; height: 5; depth: 0.3"></a-mixin>
+            <a-mixin id="primary" material="color: white"></a-mixin>
+            <a-mixin id="secondary" material="color: gray"></a-mixin>
+        </a-assets>
+            <a-entity id="walls">
+                
+            </a-entity>
+            
+           <a-entity id="doors">
+                
+            </a-entity>
+
+     <a-sky color="lightblue"></a-sky>       
+    </a-scene>
+</body>
+</html>
