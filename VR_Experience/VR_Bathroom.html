@@ -7,21 +7,18 @@
     <script src="https://aframe.io/releases/1.7.1/aframe.min.js"></script>
 </head>
 <body>
-    <a-scene> 
+    <a-scene>
         <a-assets>
             <a-mixin id="wall" geometry="primitive: box; width: 2; height: 5; depth: 0.3"></a-mixin>
             <a-mixin id="primary" material="color: white"></a-mixin>
             <a-mixin id="secondary" material="color: gray"></a-mixin>
         </a-assets>
-            <a-entity id="walls">
-                
-            </a-entity>
-            
-           <a-entity id="doors">
-                
-            </a-entity>
+        <a-entity mixin="wall primary" position="0 2.5 -5" geometry="width: 10"></a-entity>
+        <a-entity mixin="wall primary" position="-5 2.5 0" geometry="width: 10" rotation="0 90 0"></a-entity>
+        <a-entity mixin="wall primary" position="-3.53805 2.5 5" geometry="depth: 0.22; width: 3.24"></a-entity>
+        <a-entity mixin="wall primary" position="5 2.5 0" geometry="width: 10" rotation="0 90 0" ></a-entity>
+        <a-sky color="lightblue"></a-sky>
 
-     <a-sky color="lightblue"></a-sky>       
     </a-scene>
 </body>
 </html>
