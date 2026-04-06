@@ -12,11 +12,42 @@
             <a-mixin id="wall" geometry="primitive: box; width: 2; height: 5; depth: 0.3"></a-mixin>
             <a-mixin id="primary" material="color: white"></a-mixin>
             <a-mixin id="secondary" material="color: gray"></a-mixin>
+            <a-mixin id="stall wall" geometry="depth: 0.22; width: 6" material="color: white"></a-mixin>
         </a-assets>
-        <a-entity mixin="wall primary" position="0 2.5 -5" geometry="width: 10"></a-entity>
-        <a-entity mixin="wall primary" position="-5 2.5 0" geometry="width: 10" rotation="0 90 0"></a-entity>
-        <a-entity mixin="wall primary" position="-3.53805 2.5 5" geometry="depth: 0.22; width: 3.24"></a-entity>
-        <a-entity mixin="wall primary" position="5 2.5 0" geometry="width: 10" rotation="0 90 0" ></a-entity>
+        <a-entity mixin="wall primary" position="0 2.5 -14.30587" geometry="width: 29">Back Wall</a-entity>
+        <a-entity mixin="wall primary" position="-14.3489 2.5 -4.8876" geometry="width: 19.14" rotation="0 90 0">Left wall</a-entity>
+        <a-entity mixin="wall primary" position="14.37429 2.5 4.92403" geometry="width: 19.07" rotation="0 90 0">Right wall</a-entity>
+        <a-entity mixin="wall primary" position="14.37429 2.5 -11.13354" geometry="width: 6.65" rotation="0 90 0">Right wall small</a-entity>
+        <a-entity mixin="wall primary" position="-8.71176 2.5 14.35192" geometry="depth: 0.22; width: 11">Left Front Wall</a-entity>
+        <a-entity mixin="wall primary" position="8.733 2.5 14.35192" geometry="depth: 0.22; width: 11">Right Front Wall</a-entity>
+
+
+        <a-entity id="stall walls R" position="0 0 -0.98971">
+            <a-entity mixin="wall primary" position="11.22398 2.5 10.01266" geometry="depth: 0.22; width: 6">wall by sink</a-entity>
+            <a-entity mixin="wall primary" position="11.22398 2.5 5.5483" geometry="depth: 0.22; width: 6">stall wall 2</a-entity>
+            <a-entity mixin="wall primary" position="11.22398 2.5 1" geometry="depth: 0.22; width: 6">stall wall 3</a-entity>
+            <a-entity mixin="wall primary" position="11.22398 2.5 -3.51226" geometry="depth: 0.22; width: 6">stall wall 4</a-entity>
+        </a-entity>
+
+        <a-entity id="stall walls L" position="-22.44003 0 -0.98971">
+            <a-entity mixin="wall primary" position="11.22398 2.5 5.5483" geometry="depth: 0.22; width: 6">stall wall 2</a-entity>
+            <a-entity mixin="wall primary" position="11.22398 2.5 1" geometry="depth: 0.22; width: 6">stall wall 3</a-entity>
+            <a-entity mixin="wall primary" position="11.22398 2.5 -3.51226" geometry="depth: 0.22; width: 6">stall wall 4</a-entity>
+        </a-entity>
+        <a-entity id="baby change R">
+            <a-entity mixin="wall primary" position="7.01127 2.5 -12.42509" geometry="width: 3.5" rotation="0 90 0">baby change wall</a-entity>
+            <a-entity mixin="wall primary" position="11.78039 2.5 -7.93503" geometry="depth: 0.22; width: 4.99">baby change wall 2</a-entity>
+            <a-entity mixin="wall primary" position="14.37429 2.5 -11.13354" geometry="width: 6.65" rotation="0 90 0">wall small</a-entity>
+        </a-entity>
+
+         <a-entity id="baby change L">
+            <a-entity mixin="wall primary" position="7.01127 2.5 -12.42509" geometry="width: 3.5" rotation="0 90 0">baby change wall</a-entity>
+            <a-entity mixin="wall primary" position="11.78039 2.5 -7.93503" geometry="depth: 0.22; width: 4.99">baby change wall 2</a-entity>
+            <a-entity mixin="wall primary" position="14.37429 2.5 -11.13354" geometry="width: 6.65" rotation="0 90 0">wall small</a-entity>
+        </a-entity>
+        
+     
+
         <a-sky color="lightblue"></a-sky>
 
     </a-scene>
