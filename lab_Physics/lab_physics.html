@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bowling</title>
-        <script src="https://aframe.io/releases/1.7.1/aframe.min.js"></script>
-       <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-physics-system@v4.2.4/dist/aframe-physics-system.min.js"></script>
+     <script src=https://aframe.io/releases/1.7.1/aframe.min.js></script>
+<script src=https://cdn.jsdelivr.net/gh/c-frame/aframe-physics-system@v4.2.4/dist/aframe-physics-system.min.js></script>
 
 </head>
 <body>
@@ -21,7 +21,14 @@
 
         <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
 
-        <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+        	<a-box position="0 0 -4"
+					rotation="-90 0 0"
+					width="40"
+					height="40"
+					depth="0.1"
+					color="#7BC8A4"
+					static-body"></a-box>
+
 
     </a-scene>
 </body>
