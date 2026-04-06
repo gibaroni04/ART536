@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dominoes</title>
+<title>Bowling</title>
 <script src="https://aframe.io/releases/1.7.1/aframe.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-physics-system@v4.2.4/dist/aframe-physics-system.min.js"></script>
 
@@ -12,15 +12,29 @@
 
 <a-scene physics="debug: true">
 
-        <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
+      <a-sphere position="0 5 -8" radius="0.5" color="lightcoral" dynamic-body="shape: sphere; sphereRadius: 0; mass: 8;"></a-sphere> 
+<a-box position="-0.15646 0.8595 -8.35061" width="1" height="1.5" depth="0.1" static-body="mass: 0.1; shape: box; sphereRadius: NaN" velocity="" rotation="-39.4 -0.44 0" color="DarkKhaki"></a-box>      
 
-        <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
+<a-plane position="0 0 -4" rotation="-90 0 0" width="20" height="20" color="DarkKhaki" static-body="sphereRadius: NaN" velocity="" scale="0.34 1 1"></a-plane>
 
-        <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
+<a-cylinder position="-0.01021 0.85562 3.02719" radius="0.2" height="1.5" color="#FFC65D" dynamic-body="mass: 0.1; shape:  box; sphereRadius: NaN" velocity="" rotation="0.00011424879326334184 -150.72646042995063 -0.0001055060544237091"></a-cylinder>
 
-        <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+<a-cylinder position="-0.49509 0.84995 3.6536" radius="0.2" height="1.5" color="#FFC65D" dynamic-body="mass: 0.1; shape: box; sphereRadius: NaN" velocity="" rotation="-0.014031440231156786 -142.33795351110655 0.0040473823229639945"></a-cylinder>
 
-    </a-scene>
+<a-cylinder position="0.01737 0.84946 3.65665" radius="0.2" height="1.5" color="#FFC65D" dynamic-body="mass: 0.1; shape: box; sphereRadius: NaN" velocity="" rotation="-0.00499620121141966 -142.47846528408093 -0.010895735311789638"></a-cylinder>
+
+<a-cylinder position="0.53456 0.8489 3.66046" radius="0.2" height="1.5" color="#FFC65D" dynamic-body="mass: 0.1; shape: box; sphereRadius: NaN" velocity="" rotation="-0.005277435335643277 -142.26091591405242 -0.00442112939216682"></a-cylinder>
+
+<a-cylinder position="-0.75496 0.85 4.19597" radius="0.2" height="1.5" color="#FFC65D" dynamic-body="mass: 0.1; shape: box; sphereRadius: NaN" velocity="" rotation="-0.018977292619624584 -142.35289604493596 -0.023422427601295766"></a-cylinder>
+
+<a-cylinder position="-0.243 0.84994 4.2021" radius="0.2" height="1.5" color="#FFC65D" dynamic-body="mass: 0.1; shape: box; sphereRadius: NaN" velocity="" rotation="-0.020469244235486822 -142.37575970276782 0.000018443698897826"></a-cylinder>
+
+<a-cylinder position="0.28157 0.84986 4.20463" radius="0.2" height="1.5" color="#FFC65D" dynamic-body="mass: 0.1; shape: box; sphereRadius: NaN" velocity="" rotation="-0.008081350711029294 -142.2244615285016 0.04201682616077599"></a-cylinder>
+
+<a-cylinder position="0.80113 0.84989 4.21099" radius="0.2" height="1.5" color="#FFC65D" dynamic-body="mass: 0.1; shape: box; sphereRadius: NaN" velocity="" rotation="0.017897935658811297 -142.2796461078836 -0.0021787960338005394"></a-cylinder>
+
+<a-sky color="azure"></a-sky>
+</a-scene>
 
 </body>
 </html>
