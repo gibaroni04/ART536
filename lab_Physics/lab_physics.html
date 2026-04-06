@@ -10,24 +10,11 @@
 </head>
 <body>
    <a-scene physics="debug: true">
-
- <a-sphere id="ball01"
-					position="-1.1 6 -5"
-					radius="1.25"
-					color="#fff"
-					static-body></a-sphere>
-
-<a-sphere id="ball02"
-position="2 6 -5"
-radius="1.25" color="#fff"
-dynamic-body
-constraint="target: #ball01; type: pointToPoint; pivot:3 3 3;"></a-sphere>
-
-        <a-box position="0.5 1 -5" static-body></a-box>
-
-        <a-box position="0 0 -4" rotation="-90 0 0" width="40" height="40" depth="0.1" color="#7BC8A4" static-body="shape: box;"></a-box>
-
-
+        <a-sphere position="0 5 -8"
+        radius="0.5"
+        color="lightcoral"
+        dynamic-body="shape: sphere; sphereRadius: 0; mass: 8;"></a-sphere>
+        
         <a-sky color="#222"></a-sky>
     </a-scene>
 
