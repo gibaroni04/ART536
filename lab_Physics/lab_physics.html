@@ -11,9 +11,17 @@
 <body>
    <a-scene physics="debug: true">
 
-        <a-sphere position="-1.1 6 -5" radius="1.25" color="#fff" dynamic-body></a-sphere>
+ <a-sphere id="ball01"
+					position="-1.1 6 -5"
+					radius="1.25"
+					color="#fff"
+					static-body></a-sphere>
 
-        <a-sphere position="2 6 -5" radius="1.25" color="#fff" dynamic-body></a-sphere>
+<a-sphere id="ball02"
+position="2 6 -5"
+radius="1.25" color="#fff"
+dynamic-body
+constraint="target: #ball01; type: pointToPoint; pivot:3 3 3;"></a-sphere>
 
         <a-box position="0.5 1 -5" static-body></a-box>
 
