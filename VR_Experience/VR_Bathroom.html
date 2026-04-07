@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VR_Bathroom</title>
     <script src="https://aframe.io/releases/1.7.1/aframe.min.js"></script>
+     <script src="https://unpkg.com/aframe-extras@7.0.0/dist/aframe-extras.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aframe-blink-controls/dist/aframe-blink-controls.min.js"></script>
 </head>
 <body>
     <a-scene>
@@ -14,6 +16,14 @@
             <a-mixin id="secondary" material="color: gray"></a-mixin>
             <a-mixin id="stall wall" geometry="depth: 0.22; width: 6" material="color: white"></a-mixin>
         </a-assets>
+
+         <a-entity id="player" position="0 1.6 0">
+            <!-- camera -->
+            <a-entity id="camera" camera wasd-controls look-controls></a-entity>
+            <!-- hand controls -->
+            <a-entity  class="floor" id="left-hand" raycaster="objects: .floor" oculus-touch-controls="hand: left" blink-controls></a-entity>
+            <a-entity  class="floor" id="right-hand" raycaster="objects: .floor" oculus-touch-controls="hand: right" blink-controls></a-entity>
+        </a-entity>
         <a-entity mixin="wall primary" position="0 2.5 -14.30587" geometry="width: 29">Back Wall</a-entity>
         <a-entity mixin="wall primary" position="-14.3489 2.5 -4.8876" geometry="width: 19.14" rotation="0 90 0">Left wall</a-entity>
         <a-entity mixin="wall primary" position="14.37429 2.5 4.92403" geometry="width: 19.07" rotation="0 90 0">Right wall</a-entity>
