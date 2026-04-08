@@ -19,7 +19,10 @@
             <a-mixin id="stall wall" geometry="depth: 0.22; width: 6" material="color: white"></a-mixin>
             <a-mixin id="plane" geometry="primitive: plane; "depth: 0.22; width: 6 material="color: white"></a-mixin>
 
-            <img  id="marble_texture" src="../Assets_Bathroom/marble.png" alt="">
+             <img id="tiles_diff" src="../textures /floor_tiles_06_diff_4k.jpg" alt="">
+                <img id="tiles_gl" src="../textures /floor_tiles_06_nor_gl_4k.jpg" alt="">
+                <img id="tiles_rough" src="../textures /floor_tiles_06_rough_4k.jpg" alt="">
+                <img id="tiles_ao" src="../textures /floor_tiles_06_ao_4k.jpg" alt="">
 
         </a-assets>
 
@@ -86,12 +89,21 @@
 
          
         
-        <a-entity>
-            <a-box color="#FFF" material="color: #4e5653" geometry="depth: 1.68; width: 14.23" position="-7.17861 0.82989 -13.35175"></a-box>
+        <a-entity id="filler bench">
+            <a-box color="#FFF" material="color: #d4d4d4" geometry="depth: 1.68; width: 14.23" position="-7.17861 0.82989 -13.35175"></a-box>
         </a-entity>
+
+         <a-entity id="filler sink" position="14.28176 1.03811 26.74197">
+            <a-box color="#FFF" material="color: #d4d4d4" geometry="depth: 1.68; width: 10.32" position="-5.20061 0.82989 -13.36431"></a-box>
+        </a-entity>
+
         
          <a-entity id="floor">
-            <a-plane color="#614119" position="0 0.04638 0.14276" rotation="-90 0 0" width="3.66" height="3.35" material="color: #636363" geometry="height: 28.55; width: 29"></a-plane>
+            <a-plane color="#614119" position="0 0.04638 0.14276" rotation="-90 0 0" width="3.66" height="3.35" material="color: #636363" geometry="height: 28.55; width: 29" 
+            src: #tiles_diff;
+            roughness: 1;
+            roughnessMap: #tiles_rough;
+            ambientOcclusionMap: #tiles_ao;></a-plane>
         </a-entity>
      
 
