@@ -25,6 +25,9 @@
             <img id="marble" src="../assets/textures VR/marble_2.jpeg" alt="">
             <img id="brick" src="../assets/textures VR/white_brick.png" alt="">
             <img id="sit_back" src="../assets/textures VR/sit_back.png" alt="">
+            <img id="stall_des_door" src="../assets/textures VR/stall_des_door.png" alt="">
+            <img id="stall_des_left" src="../assets/textures VR/stall_des_left.png" alt="">
+            <img id="wains" src="../assets/textures VR/wainscotting.png" alt="">
 
         </a-assets>
 
@@ -42,7 +45,7 @@
         <a-entity id="main walls">
             <a-entity mixin="wall primary" position="0 2.5 -14.30587" geometry="width: 29">Back Wall</a-entity>
              <a-plane id="main wall des" geometry="height: 2.87; width: 15.56" position="6.42998 2.52414 -14.11169" width="6" scale="1.02 1.72 1" material="repeat: 1.87 1; color: #fff; src: #brick"></a-plane>
-             <a-plane id="main wall sit" geometry="height: 2.87; width: 10.2" position="-7.91147 2.52414 -14.10121" width="6" scale="1.02 1.72 1"></a-plane>
+             <a-plane id="main wall sit" geometry="height: 2.87; width: 10.2" position="-7.91147 2.52414 -14.10121" width="6" scale="1.02 1.72 1" material="color: #fff; src: #sit_back"></a-plane>
         <a-entity mixin="wall primary" position="-14.3489 2.5 -4.8876" geometry="width: 19.14" rotation="0 90 0">Left wall</a-entity>
         <a-entity mixin="wall primary" position="14.37429 2.5 4.92403" geometry="width: 19.07" rotation="0 90 0">Right wall</a-entity>
         <a-entity mixin="wall primary" position="14.37429 2.5 -11.13354" geometry="width: 6.65" rotation="0 90 0">Right wall small</a-entity>
@@ -53,7 +56,7 @@
        
         <a-entity id="stall walls R" position="0 0 -0.98971">
             <a-entity mixin="wall primary" position="11.22398 2.5 10.01266" geometry="depth: 0.22; width: 6">wall by sink</a-entity>
-            <a-plane id="stall wall pics" geometry="height: 2.87; width: 10.2" position="-7.91147 2.52414 -14.10121" width="6" scale="1.02 1.72 1"></a-plane>
+            <a-plane id="stall wall pics" geometry="height: 2.87" position="11.24049 2.52414 5.76841" width="6" scale="1.02 1.72 1"></a-plane>
             <a-entity mixin="wall primary" position="11.22398 2.5 5.5483" geometry="depth: 0.22; width: 6">stall wall 2</a-entity>
             <a-entity mixin="wall primary" position="11.22398 2.5 1" geometry="depth: 0.22; width: 6">stall wall 3</a-entity>
             <a-entity mixin="wall primary" position="11.22398 2.5 -3.51226" geometry="depth: 0.22; width: 6">stall wall 4</a-entity>
