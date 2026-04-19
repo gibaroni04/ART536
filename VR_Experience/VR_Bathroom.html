@@ -29,9 +29,9 @@
             <img id="stall_des_left" src="../assets/textures VR/stall_des_left.png" alt="">
             <img id="wains" src="../assets/textures VR/wainscotting.png" alt="">
 
-                <!--OBJ model assets-->
-            <a-asset-item id="Lounge_obj" src="/assets/3D/Retro_Lounge.obj"></a-asset-item>
-            <a-asset-item id="Lounge_mtl" src="/assets/3D/Retro_Lounge.mtl"></a-asset-item>
+                
+            <!--gltf model assets-->
+            <a-asset-item id="sink" src="../assets/3D/sink_faucet/scene.gltf"></a-asset-item>
 
             
 
@@ -126,9 +126,8 @@
             <a-plane color="#614119" position="0 0.04638 0.14276" rotation="-90 0 0" width="3.66" height="3.35" material="repeat: 3.07 4.26; color: #fff; src: #marble" geometry="height: 28.55; width: 29" marble=""></a-plane>
         </a-entity>
 
-        <!--OBJ models-->
-        
-        <a-obj-model src="#door_obj" mtl="#door_mtl" scale="0.01 0.01 0.01"></a-obj-model>
+        <!--gltf models-->
+        <a-entity gltf-model="../assets/3D/sink_faucet/scene.gltf" scale="-0.009 0.009 0.009" position="12.95705 1.7559 13.2782" rotation="0 180 0"></a-entity>
         
         
         
