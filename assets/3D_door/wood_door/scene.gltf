@@ -1,0 +1,616 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 11596,
+      "max": [
+        11.844922065734863,
+        2.7000515460968018,
+        6.364526748657227
+      ],
+      "min": [
+        -2.251190662384033,
+        -12.254079818725586,
+        0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 139152,
+      "componentType": 5126,
+      "count": 11596,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 11596,
+      "max": [
+        1.0,
+        0.9110187292098999
+      ],
+      "min": [
+        0.0,
+        -7.379351036479465e-18
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 57972,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 278304,
+      "componentType": 5126,
+      "count": 120,
+      "max": [
+        -30.51024627685547,
+        105.0,
+        7.90000057220459
+      ],
+      "min": [
+        -40.5,
+        -105.0,
+        3.100015640258789
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 279744,
+      "componentType": 5126,
+      "count": 120,
+      "max": [
+        1.0,
+        1.0,
+        0.06452511996030807
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -0.06452225893735886
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 92768,
+      "componentType": 5126,
+      "count": 120,
+      "max": [
+        0.12085696309804916,
+        1.0
+      ],
+      "min": [
+        0.0,
+        2.384193509286092e-09
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 231888,
+      "componentType": 5125,
+      "count": 336,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 281184,
+      "componentType": 5126,
+      "count": 120,
+      "max": [
+        40.5,
+        105.0,
+        7.90000057220459
+      ],
+      "min": [
+        30.51024627685547,
+        -105.0,
+        3.100015640258789
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 282624,
+      "componentType": 5126,
+      "count": 120,
+      "max": [
+        1.0,
+        1.0,
+        0.06452484428882599
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -0.06452225893735886
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 93728,
+      "componentType": 5126,
+      "count": 120,
+      "max": [
+        0.33226853609085083,
+        1.62662935256958
+      ],
+      "min": [
+        0.1682024896144867,
+        0.00050002196803689
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 233232,
+      "componentType": 5125,
+      "count": 336,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 284064,
+      "componentType": 5126,
+      "count": 5257,
+      "max": [
+        49.103111267089844,
+        113.49999237060547,
+        16.93280029296875
+      ],
+      "min": [
+        -48.89689254760742,
+        -105.0031509399414,
+        3.0000343322753906
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 347148,
+      "componentType": 5126,
+      "count": 5257,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 94688,
+      "componentType": 5126,
+      "count": 5257,
+      "max": [
+        0.9987785816192627,
+        1.6262850761413574
+      ],
+      "min": [
+        4.4481328842493895e-08,
+        -1.3292294170241803e-05
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 234576,
+      "componentType": 5125,
+      "count": 26970,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Daniele Pagella (https://sketchfab.com/DanielePagella)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/wood-door-1d860790dae5414a85718a731befe889",
+      "title": "Wood Door"
+    },
+    "generator": "Sketchfab-16.12.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 342456,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 136744,
+      "byteOffset": 342456,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 410232,
+      "byteOffset": 479200,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 889432,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_specular"
+  ],
+  "images": [
+    {
+      "uri": "textures/Maniglia_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/Porta_baseColor.jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specularFactor": 0.4371606895341988
+        }
+      },
+      "name": "Maniglia",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.31512687396390426,
+        "roughnessFactor": 0.0
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specularFactor": 0.3639404001920221
+        }
+      },
+      "name": "Porta",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0.766651991573994,
+        "roughnessFactor": 0.5079240934591687
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Maniglia05_H198_Maniglia_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object015_Porta_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object016_Porta_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object020_Porta_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 13,
+            "POSITION": 12,
+            "TEXCOORD_0": 14
+          },
+          "indices": 15,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        2.8327693431939985e-16,
+        1.60812262295773e-16,
+        0.0,
+        -1.6081226229577292e-16,
+        -5.053215392444312e-16,
+        1.0,
+        0.0,
+        2.832769343193999e-16,
+        -1.0,
+        -5.053215392444312e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "e9a90e7a9fe64151bbe1a9715be028f8.fbx"
+    },
+    {
+      "children": [
+        3,
+        5,
+        8,
+        11
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -4.3711388064693324e-08,
+        0.999999999999999,
+        0.0,
+        0.0,
+        -0.999999999999999,
+        -4.3711388064693324e-08,
+        0.0,
+        -34.07887268066406,
+        -2.458159923553467,
+        100.0,
+        1.0
+      ],
+      "name": "Maniglia05_H198"
+    },
+    {
+      "mesh": 0,
+      "name": "Maniglia05_H198_Maniglia_0"
+    },
+    {
+      "children": [
+        6
+      ],
+      "name": "Object015"
+    },
+    {
+      "children": [
+        7
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.0,
+        6.123233995736766e-17,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        6.123233995736766e-17,
+        0.0,
+        0.0,
+        5.5000152587890625,
+        104.99999237060547,
+        1.0
+      ],
+      "name": "Object_6"
+    },
+    {
+      "mesh": 1,
+      "name": "Object015_Porta_0"
+    },
+    {
+      "children": [
+        9
+      ],
+      "name": "Object016"
+    },
+    {
+      "children": [
+        10
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.0,
+        6.123233995736766e-17,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        6.123233995736766e-17,
+        0.0,
+        0.0,
+        5.5000152587890625,
+        104.99999237060547,
+        1.0
+      ],
+      "name": "Object_9"
+    },
+    {
+      "mesh": 2,
+      "name": "Object016_Porta_0"
+    },
+    {
+      "children": [
+        12
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -0.10310745239257813,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Object020"
+    },
+    {
+      "children": [
+        13
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.0,
+        6.123233995736766e-17,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        6.123233995736766e-17,
+        0.0,
+        0.0,
+        5.5000152587890625,
+        104.99999237060547,
+        1.0
+      ],
+      "name": "Object_12"
+    },
+    {
+      "mesh": 3,
+      "name": "Object020_Porta_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}
