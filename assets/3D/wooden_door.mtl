@@ -1,0 +1,51 @@
+newmtl door_wooden_mat
+Ni 1.45
+Ka 0 0 0
+Pm 0
+d 1.0
+Ke 0.0
+Kd 0 0 0
+adobe_map_normal wooden_door/door_wooden_mat_Normal.png
+Tr 0
+illum 7
+Ks 1 1 1
+adobe_translucence 0.0
+adobe_map_roughness wooden_door/door_wooden_mat_Roughness.png
+adobe_interior_color 1.0 1.0 1.0
+adobe_density 0.0
+Ns 16
+map_Kd wooden_door/door_wooden_mat_BaseColor.png
+newmtl door_handle_Mat
+Ni 1.45
+Ka 0 0 0
+Pm 0
+d 1.0
+Ke 0.0
+Kd 0 0 0
+adobe_map_normal wooden_door/door_wooden_mat_Normal.png
+Tr 0
+illum 7
+Ks 1 1 1
+adobe_translucence 0.0
+adobe_map_roughness wooden_door/door_wooden_mat_Roughness.png
+adobe_interior_color 1.0 1.0 1.0
+adobe_density 0.0
+Ns 16
+map_Kd wooden_door/door_wooden_mat_BaseColor.png
+newmtl frame_wooden_mat
+Ni 1.45
+Ka 0 0 0
+Pm 0
+d 1.0
+Ke 0.0
+Kd 0 0 0
+adobe_map_normal wooden_door/frame_wooden_mat_Normal.png
+Tr 0
+illum 7
+Ks 1 1 1
+adobe_translucence 0.0
+adobe_map_roughness wooden_door/frame_wooden_mat_Roughness.png
+adobe_interior_color 1.0 1.0 1.0
+adobe_density 0.0
+Ns 16
+map_Kd wooden_door/frame_wooden_mat_BaseColor.png

@@ -29,6 +29,14 @@
             <img id="stall_des_left" src="../assets/textures VR/stall_des_left.png" alt="">
             <img id="wains" src="../assets/textures VR/wainscotting.png" alt="">
 
+                <!--OBJ model assets-->
+            <a-asset-item id="Lounge-obj" src="/assets/3D/Retro_Lounge.obj"></a-asset-item>
+            <a-asset-item id="Lounge-mtl" src="/assets/3D/Retro_Lounge.mtl"></a-asset-item>
+
+            <a-asset-item id="Door-obj" src="/assets/3D/wooden_door.obj"></a-asset-item>
+            <a-asset-item id="Door-mtl" src="/assets/3D/wooden_door.mtl"></a-asset-item>
+            
+
         </a-assets>
 
 
@@ -112,6 +120,10 @@
          <a-entity id="floor">
             <a-plane color="#614119" position="0 0.04638 0.14276" rotation="-90 0 0" width="3.66" height="3.35" material="repeat: 3.07 4.26; color: #fff; src: #marble" geometry="height: 28.55; width: 29" marble=""></a-plane>
         </a-entity>
+
+        <!--OBJ models-->
+        <a-entity id="lounge" obj-model="obj: #Lounge-obj; mtl: #Lounge-mtl;" scale="0.01 0.01 0.01"></a-entity>
+        <a-entity id="door" obj-model="obj: #Door-obj; mtl: #Door-mtl;" scale="0.01 0.01 0.01"></a-entity>
      
 
         <a-sky color="lightblue"></a-sky>
