@@ -30,11 +30,13 @@
             <img id="wains" src="../assets/textures VR/wainscotting.png" alt="">
 
                 <!--OBJ model assets-->
-            <a-asset-item id="Lounge-obj" src="/assets/3D/Retro_Lounge.obj"></a-asset-item>
-            <a-asset-item id="Lounge-mtl" src="/assets/3D/Retro_Lounge.mtl"></a-asset-item>
+            <a-asset-item id="Lounge_obj" src="../assets/3D/Retro_Lounge.obj"></a-asset-item>
+            <a-asset-item id="Lounge_mtl" src="../assets/3D/Retro_Lounge.mtl"></a-asset-item>
 
-            <a-asset-item id="Door-obj" src="/assets/3D/wooden_door.obj"></a-asset-item>
-            <a-asset-item id="Door-mtl" src="/assets/3D/wooden_door.mtl"></a-asset-item>
+            <a-asset-item id="Door_obj" src="../assets/3D/wooden_door.obj"></a-asset-item>
+            <a-asset-item id="Door_mtl" src="../assets/3D/wooden_door.mtl"></a-asset-item>
+
+
             
 
         </a-assets>
@@ -122,8 +124,9 @@
         </a-entity>
 
         <!--OBJ models-->
-        <a-entity id="lounge" obj-model="obj: #Lounge-obj; mtl: #Lounge-mtl;" scale="0.01 0.01 0.01"></a-entity>
-        <a-entity id="door" obj-model="mtl: /assets/3D/wooden_door.mtl; obj: /assets/3D/wooden_door.obj" scale="0.02 0.02 0.01" position="7.89242 0 -2.11513" rotation="0 -90 0"></a-entity>
+        <a-obj-model src="#Lounge_obj" mtl="#Lounge_mtl" scale="0.01 0.01 0.01"></a-obj-model>
+        <a-obj-model src="#Door_obj" mtl="#Door_mtl" scale="0.01 0.01 0.01"></a-obj-model>
+        
      
 
         <a-sky color="lightblue"></a-sky>
