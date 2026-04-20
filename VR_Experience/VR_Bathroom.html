@@ -28,6 +28,11 @@
             <img id="stall_des_door" src="../assets/textures VR/stall_des_door.png" alt="">
             <img id="stall_des_left" src="../assets/textures VR/stall_des_left.png" alt="">
             <img id="wains" src="../assets/textures VR/wainscotting.png" alt="">
+            <img id="homeisnot" src="../assets/textures VR/homeisnot.png" alt="">
+            <img id="feeling" src="../assets/textures VR/feeling.png" alt="">
+
+
+        
 
                 
             <!--gltf model assets-->
@@ -36,6 +41,8 @@
             <a-asset-item id="armchair" src="../assets/3D_armchair/victorian_armchair/scene.gltf"></a-asset-item>
             <a-asset-item id="sofa" src="../assets/3D_sofa/sofa/scene.gltf"></a-asset-item>
             <a-asset-item id="plant" src="../assets/3D_plant/potted_plant/scene.gltf"></a-asset-item>
+            <a-asset-item id="toilet" src="../assets/3D_toilet/toilet/scene.gltf"></a-asset-item>
+
 
             
             
@@ -84,8 +91,8 @@
             <a-entity mixin="wall primary" position="11.22398 2.5 -3.51226" geometry="depth: 0.22; width: 6">stall wall 4</a-entity>
         </a-entity>
         <a-entity id="baby change R">
-            <a-entity mixin="wall primary" position="7.01127 2.5 -11.67559" geometry="width: 5.11" rotation="0 99.02 0">baby change wall</a-entity>
-            <a-entity mixin="wall primary" position="11.78039 2.5 -7.93503" geometry="depth: 0.22; width: 4.99">baby change wall 2</a-entity>
+            <a-entity mixin="wall primary" position="7.01127 2.5 -11.92345" geometry="width: 4.71" rotation="0 99.02 0" material="color: #acd7ab">baby change wall</a-entity>
+            <a-entity mixin="wall primary" position="11.37144 2.5 -7.93503" geometry="depth: 0.22; width: 5.84" material="color: #acd7ab">baby change wall 2</a-entity>
             <a-entity mixin="wall primary" position="14.37429 2.5 -11.13354" geometry="width: 6.65" rotation="0 90 0">wall small</a-entity>
         </a-entity>
 
@@ -101,7 +108,7 @@
     
 
        <a-entity id="baby change L" position="-9.08696 0 14.63745">
-            <a-entity mixin="wall primary" position="1.70002 2.5 -2.14768" geometry="width: 3.5" rotation="0 90 0">baby change wall</a-entity>
+            <a-entity mixin="wall primary" position="1.70002 2.5 -2.14768" geometry="width: 3.5" rotation="0 99.02 0">baby change wall</a-entity>
             <a-entity mixin="wall primary" position="-2.9491 2.5 -6.88179" geometry="depth: 0.22; width: 4.99">baby change wall 2</a-entity>
             <a-entity mixin="wall primary" position="-5.28582 2.5 -3.49755" geometry="width: 6.65" rotation="0 90 0">wall small</a-entity>
         </a-entity>
@@ -133,6 +140,7 @@
 
         <!--doors-->
         <a-entity id="door1" gltf-model="../assets/3D_door/wood_door/scene.gltf" scale="0.02 0.02 0.01" position="8.0096 0.05152 -2.22342" rotation="0 -90 0"></a-entity>
+        <a-entity id="door1-2" gltf-model="../assets/3D_door/wood_door/scene.gltf" scale="0.02 0.02 0.01" position="7.96979 0.05152 -8.8533" rotation="0 -51.64 0"></a-entity>
        <a-entity id="door2" gltf-model="../assets/3D_door/wood_door/scene.gltf" scale="0.02 0.02 0.01" position="8.91573 0.05152 3.77962" rotation="0 -210.51 0"></a-entity>
         <a-entity id="door3" gltf-model="../assets/3D_door/wood_door/scene.gltf" scale="0.02 0.02 0.01" position="8.0096 0.05152 6.78548" rotation="0 -90 0"></a-entity>
         <a-entity id="door4" gltf-model="../assets/3D_door/wood_door/scene.gltf" scale="0.02 0.02 0.01" position="-8.01762 0.05152 -2.22342" rotation="0 90 0"></a-entity>
@@ -143,6 +151,7 @@
         <a-entity id="sofa2" gltf-model="../assets/3D_sofa/sofa/scene.gltf" scale="3.2 3.2 3.2" position="-13.09262 0.05716 -9.16577" rotation="0 90 0"></a-entity>
 
         <!--toilet-->
+        <a-entity id="toilet" gltf-model="../assets/3D_toilet/toilet/scene.gltf" scale="0.025 0.025 0.025" position="11.48041 2.49973 1.82827" rotation="0 180 0"></a-entity>
 
         <!--plants-->
         <a-entity id="plant" gltf-model="../assets/3D_plant/potted_plant/scene.gltf" position="-1.17823 0.00494 -13.18344" scale="9 9 9"></a-entity>
@@ -153,6 +162,7 @@
         <!--armchair-->
         <a-entity id="armchair" gltf-model="../assets/3D_armchair/victorian_armchair/scene.gltf" position="12.60353 -1.44802 -13.10747" scale="0.6 0.6 0.6" rotation="0 -45 0"></a-entity>
         
+        <a-plane id="baby_change_des" geometry="height: 2.84; width: 4.43" scale="1.02 1.72 1" material="opacity: 0.5; transparent: true; src: #homeisnot; "color: #fff rotation="0 -80.98 0" position="6.80072 2.40174 -12.03763"></a-plane>
         
         
      
