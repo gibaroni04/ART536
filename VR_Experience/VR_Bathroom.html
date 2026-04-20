@@ -173,7 +173,13 @@
         <a-plane id="baby_change_des" geometry="height: 2.84; width: 4.43" scale="1.02 1.72 1" material="opacity: 0.5; transparent: true; src: #feeling" color:="" #fff="" position="10.7995 2.56833 -7.82147"></a-plane>
        <a-plane id="door_number" geometry="height: 2.84; width: 4.43" scale="0.14 0.25 0.17" material="opacity: 0.5; transparent: true; src: #number1" color:="" #fff="" rotation="0 -90 0" position="7.85241 4.70228 -2.20053"></a-plane>
        <a-plane id="door_number" geometry="height: 2.84; width: 4.43" scale="0.14 0.25 0.17" material="opacity: 0.5; transparent: true; src: #number2" color:="" #fff="" rotation="0 -90 0" position="7.85241 4.70228 2.24759"></a-plane>
-        <a-plane id="keep"></a-plane>
+
+       <a-entity id="vertical_panels">
+       <a-plane id="keep" material="color: #e62828" geometry="height: 4.69; width: 1.22" position="-7.90314 2.59097 3.94657" rotation="0 90 0"></a-plane>
+       <a-plane id="moving" material="color: #e62828" geometry="height: 4.69; width: 2.29" position="-7.90314 2.59097 0.00704" rotation="0 90 0"></a-plane>
+       <a-plane id="forward" material="color: #e62828" geometry="height: 4.69; width: 1.22" position="-7.90314 2.59097 -3.88484" rotation="0 90 0"></a-plane>
+       </a-entity>
+
         <a-sky color="lightblue"></a-sky>
 
     </a-scene>
