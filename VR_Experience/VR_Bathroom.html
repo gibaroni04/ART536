@@ -35,7 +35,8 @@
             <img id="feeling" src="../assets/textures VR/feeling.png" alt="">
             <img id="number1" src="../assets/textures VR/number1.png" alt="">
             <img id="number2" src="../assets/textures VR/number2.png" alt="">
-            <img id="pictures_for_wall" src="../assets/textures VR/" alt="">
+            <img id="pictures_for_wall" src="../assets/textures VR/pictures_for_wall.png" alt="">
+            <img id="welcome_home" src="../assets/textures VR/welcome_home.png" alt="">
 
 
 
@@ -68,6 +69,10 @@
             <a-entity  class="floor" id="left-hand" raycaster="objects: .floor" oculus-touch-controls="hand: left" blink-controls></a-entity>
             <a-entity  class="floor" id="right-hand" raycaster="objects: .floor" oculus-touch-controls="hand: right" blink-controls></a-entity>
         </a-entity>
+
+            <!--lights-->
+            <a-light type="spot" intensity="1.0" light="intensity: 2; type: ambient" position="0 8.03201 0" rotation="-90 -0.49000000000000005 0"></a-light>
+            <a-light type="spot" intensity="1.0" light="intensity: 0.44; type: ambient" position="0 8.03201 0" rotation="-90 -0.49000000000000005 0"></a-light>
 
 
         <a-entity id="main walls">
@@ -153,7 +158,7 @@
         <a-entity id="sofa2" gltf-model="../assets/3D_sofa/sofa/scene.gltf" scale="3.2 3.2 3.2" position="-13.09262 0.05716 -9.16577" rotation="0 90 0"></a-entity>
 
         <!--toilet-->
-        <a-entity id="toilet" gltf-model="../assets/3D_toilet/toilet/scene.gltf" scale="0.025 0.025 0.025" position="11.48041 2.49973 1.82827" rotation="0 180 0"></a-entity>
+        
 
         <!--plants-->
         <a-entity id="plant" gltf-model="../assets/3D_plant/potted_plant/scene.gltf" position="-1.17823 0.00494 -13.18344" scale="9 9 9"></a-entity>
@@ -162,13 +167,18 @@
         <!--table-->
 
         <!--armchair-->
-        <a-entity id="armchair" gltf-model="../assets/3D_armchair/victorian_armchair/scene.gltf" position="12.60353 -1.44802 -13.10747" scale="0.6 0.6 0.6" rotation="0 -45 0"></a-entity>
+        <a-entity id="armchair" gltf-model="../assets/3D_armchair/victorian_armchair/scene.gltf" position="12.90879 -1.44802 -13.38195" scale="0.6 0.6 0.6" rotation="0 -45 0"></a-entity>
+
+        <!--baby_change-->
+        <a-entity id="vanity-5" gltf-model="../assets/3D_vanity/vanity/scene.gltf" position="12.82468 0 -8.92045" rotation="0 180 0"></a-entity>
 
 
         <!--wall designs-->
         <a-plane id="baby_change_des" geometry="height: 2.84; width: 4.43" scale="1.02 1.72 1" material="opacity: 0.5; transparent: true; src: #homeisnot; "color: #fff rotation="0 -80.98 0" position="6.80072 2.40174 -12.03763"></a-plane>
         <a-plane id="baby_change_des" geometry="height: 2.84; width: 4.43" scale="1.02 1.72 1" material="opacity: 0.5; transparent: true; src: #feeling" color:="" #fff="" position="10.7995 2.56833 -7.82147"></a-plane>
-        <a-plane id="pictureframe_panel" material="color: #fff" geometry="height: 4.08; width: 6.76" position="14.20478 2.63237 4.59341" rotation="0 -90 0"></a-plane>
+        <a-plane id="baby_change_mural" material="opacity: 0.5; transparent: true; src: #welcome_home" geometry="height: 5; width: 5.49" position="14.11924 2.59097 -11.10283" rotation="0 -90 0"></a-plane>
+        <a-plane id="baby_change_mural-2" material="color: #fff" geometry="height: 5; width: 5.84" position="11.36772 2.51504 -8.07023" rotation="0 180 0"></a-plane>
+       <a-plane id="pictureframe_panel" material="opacity: 0.5; transparent: true; src: #pictures_for_wall" geometry="height: 4.08; width: 6.76" position="14.20478 2.92553 4.12421" rotation="0 -90 0"></a-plane>
 
        <a-entity id="door_numbers">
        <a-plane id="door_number" geometry="height: 2.84; width: 4.43" scale="0.14 0.25 0.17" material="opacity: 0.5; transparent: true; src: #number1" color:="" #fff="" rotation="0 -90 0" position="7.85241 4.70228 6.80462"></a-plane>
