@@ -35,6 +35,7 @@
             <img id="feeling" src="../assets/textures VR/feeling.png" alt="">
             <img id="number1" src="../assets/textures VR/number1.png" alt="">
             <img id="number2" src="../assets/textures VR/number2.png" alt="">
+            <img id="pictures_for_wall" src="../assets/textures VR/" alt="">
 
 
 
@@ -85,10 +86,8 @@
         <a-entity id="stall walls R" position="0 0 -0.98971">
             <a-entity mixin="wall primary" position="11.22398 2.5 10.01266" geometry="depth: 0.22; width: 6">wall by sink</a-entity>
             <a-plane id="stall wall brick1" geometry="height: 2.87" position="11.24049 2.52414 10.18923" width="6" scale="1.02 1.72 1" material="repeat: 0.98 0.9; color: #fff; src: #brick"></a-plane>
-            <a-plane id="stall wall brick2" geometry="height: 2.87" position="11.24049 2.52414 5.70184" width="6" scale="1.02 1.72 1" material="repeat: 0.98 0.9; color: #fff; src: #brick"></a-plane>
             <a-plane id="stall wall brick3" geometry="height: 2.87" position="11.24049 2.52414 1.16172" width="6" scale="1.02 1.72 1" material="repeat: 0.98 0.9; color: #fff; src: #brick"></a-plane>
             <a-plane id="stall wall brick4" geometry="height: 2.87" position="11.24049 2.52414 -3.37859" width="6" scale="1.02 1.72 1" material="repeat: 0.98 0.9; color: #fff; src: #brick"></a-plane>
-            <a-entity mixin="wall primary" position="11.22398 2.5 5.5483" geometry="depth: 0.22; width: 6">stall wall 2</a-entity>
             <a-entity mixin="wall primary" position="11.22398 2.5 1" geometry="depth: 0.22; width: 6">stall wall 3</a-entity>
             <a-entity mixin="wall primary" position="11.22398 2.5 -3.51226" geometry="depth: 0.22; width: 6">stall wall 4</a-entity>
         </a-entity>
@@ -145,7 +144,7 @@
         <a-entity id="door1" gltf-model="../assets/3D_door/wood_door/scene.gltf" scale="0.02 0.02 0.01" position="8.0096 0.05152 -2.22342" rotation="0 -90 0"></a-entity>
         <a-entity id="door1-2" gltf-model="../assets/3D_door/wood_door/scene.gltf" scale="0.02 0.02 0.01" position="9.26962 0.05152 -8.57376" rotation="0 -145.23 0"></a-entity>
        <a-entity id="door2" gltf-model="../assets/3D_door/wood_door/scene.gltf" scale="0.02 0.02 0.01" position="8.91573 0.05152 3.77962" rotation="0 -210.51 0"></a-entity>
-        <a-entity id="door3" gltf-model="../assets/3D_door/wood_door/scene.gltf" scale="0.02 0.02 0.01" position="8.0096 0.05152 6.78548" rotation="0 -90 0"></a-entity>
+        <a-entity id="door3" gltf-model="../assets/3D_door/wood_door/scene.gltf" scale="0.02 0.02 0.01" position="9.0332 0.05152 7.51266" rotation="0 -158.22 0"></a-entity>
         <a-entity id="door4" gltf-model="../assets/3D_door/wood_door/scene.gltf" scale="0.02 0.02 0.01" position="-8.01762 0.05152 -2.22342" rotation="0 90 0"></a-entity>
         <a-entity id="door5" gltf-model="../assets/3D_door/wood_door/scene.gltf" scale="0.02 0.02 0.01" position="-7.9924 0.05152 2.23829" rotation="0 90 0"></a-entity>
 
@@ -169,8 +168,12 @@
         <!--wall designs-->
         <a-plane id="baby_change_des" geometry="height: 2.84; width: 4.43" scale="1.02 1.72 1" material="opacity: 0.5; transparent: true; src: #homeisnot; "color: #fff rotation="0 -80.98 0" position="6.80072 2.40174 -12.03763"></a-plane>
         <a-plane id="baby_change_des" geometry="height: 2.84; width: 4.43" scale="1.02 1.72 1" material="opacity: 0.5; transparent: true; src: #feeling" color:="" #fff="" position="10.7995 2.56833 -7.82147"></a-plane>
-       <a-plane id="door_number" geometry="height: 2.84; width: 4.43" scale="0.14 0.25 0.17" material="opacity: 0.5; transparent: true; src: #number1" color:="" #fff="" rotation="0 -90 0" position="7.85241 4.70228 -2.20053"></a-plane>
-       <a-plane id="door_number" geometry="height: 2.84; width: 4.43" scale="0.14 0.25 0.17" material="opacity: 0.5; transparent: true; src: #number2" color:="" #fff="" rotation="0 -90 0" position="7.85241 4.70228 6.79773"></a-plane>
+        <a-plane id="pictureframe_panel" material="color: #fff" geometry="height: 4.08; width: 6.76" position="14.20478 2.63237 4.59341" rotation="0 -90 0"></a-plane>
+
+       <a-entity id="door_numbers">
+       <a-plane id="door_number" geometry="height: 2.84; width: 4.43" scale="0.14 0.25 0.17" material="opacity: 0.5; transparent: true; src: #number1" color:="" #fff="" rotation="0 -90 0" position="7.85241 4.70228 6.80462"></a-plane>
+       <a-plane id="door_number" geometry="height: 2.84; width: 4.43" scale="0.14 0.25 0.17" material="opacity: 0.5; transparent: true; src: #number2" color:="" #fff="" rotation="0 -90 0" position="7.85241 4.70228 -2.20936"></a-plane>
+        </a-entity>
 
     <a-entity id="vertical_panels">
        <a-plane id="keep" material="opacity: 0.5; transparent: true; src: #keep" geometry="height: 4.18; width: 1.32" position="-7.90314 1.59455 3.53401" rotation="0 90 180"></a-plane>
