@@ -1,0 +1,11 @@
+Model Information:
+* title:	Ceiling Speaker
+* source:	https://sketchfab.com/3d-models/ceiling-speaker-58580cd22a144b64b2aa9873d429a0b5
+* author:	spy_dogg (https://sketchfab.com/chives1996)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Ceiling Speaker" (https://sketchfab.com/3d-models/ceiling-speaker-58580cd22a144b64b2aa9873d429a0b5) by spy_dogg (https://sketchfab.com/chives1996) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
