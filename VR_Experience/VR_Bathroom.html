@@ -38,6 +38,8 @@
             <img id="pictures_for_wall" src="../assets/textures VR/pictures_for_wall.png" alt="">
             <img id="welcome_home" src="../assets/textures VR/welcome_home.png" alt="">
             <img id="no_place_like" src="../assets/textures VR/no_place_like_home.png" alt="">
+            <img id="see_something" src="../assets/textures VR/see_something.png" alt="">
+            <img id="ceiling_tile" src="../assets/textures VR/ceiling_tile.jpeg" alt="">
 
 
 
@@ -100,7 +102,7 @@
             <a-plane id="stall wall brick back" geometry="height: 2.87; width: 10.95" position="-8.85106 2.52414 15.18544" width="6" scale="1.02 1.72 1" material="repeat: 1.27 0.75; color: #fff; src: #brick" rotation="0 180 0"></a-plane>
             <a-entity mixin="wall primary" position="11.22398 2.5 1" geometry="depth: 0.22; width: 6">stall wall 3</a-entity>
             <a-entity mixin="wall primary" position="11.22398 2.5 -3.51226" geometry="depth: 0.22; width: 6">stall wall 4</a-entity>
-            <a-plane id="wall_design_bydoor" material="color: #fff" geometry="height: 4.69; width: 2.29" position="8.25341 2.59097 5.12983" rotation="0 90 0"></a-plane>
+            <a-plane id="wall_design_bydoor" material="opacity: 0.5; transparent: true; src: #see_something" geometry="height: 4.69; width: 2.29" position="8.25341 2.59097 5.12983" rotation="0 90 0"></a-plane>
         </a-entity>
 
         <a-entity id="stall walls L" position="-22.44003 0 -0.98971">
@@ -154,7 +156,7 @@
         <!--doors-->
         <a-entity id="door1" gltf-model="../assets/3D_door/wood_door/scene.gltf" scale="0.02 0.02 0.01" position="8.0096 0.05152 -2.22342" rotation="0 -90 0"></a-entity>
         <a-entity id="door1-2" gltf-model="../assets/3D_door/wood_door/scene.gltf" scale="0.02 0.02 0.01" position="9.26962 0.05152 -8.57376" rotation="0 -145.23 0"></a-entity>
-       <a-entity id="door2" gltf-model="../assets/3D_door/wood_door/scene.gltf" scale="0.02 0.02 0.01" position="-7.85772 0.05152 8.45735" rotation="0 -210.51 0"></a-entity>
+       <a-entity id="door2" gltf-model="../assets/3D_door/wood_door/scene.gltf" scale="0.02 0.02 0.01" position="-9.55992 0.05152 8.20096" rotation="0 -335.25 0"></a-entity>
         <a-entity id="door3" gltf-model="../assets/3D_door/wood_door/scene.gltf" scale="0.02 0.02 0.01" position="9.0332 0.05152 7.51266" rotation="0 -158.22 0"></a-entity>
         <a-entity id="door4" gltf-model="../assets/3D_door/wood_door/scene.gltf" scale="0.02 0.02 0.01" position="-8.01762 0.05152 -2.22342" rotation="0 90 0"></a-entity>
         <a-entity id="door5" gltf-model="../assets/3D_door/wood_door/scene.gltf" scale="0.02 0.02 0.01" position="-7.9924 0.05152 2.23829" rotation="0 90 0"></a-entity>
@@ -212,8 +214,11 @@
        <a-entity id="vanity-5" gltf-model="../assets/3D_vanity/vanity/scene.gltf" position="0.97866 0 -4.69188" rotation="0 90 0"></a-entity>
        </a-entity>
 
+       <a-entity id="ceiling" mixin="wall primary" position="-0.00863 5.03182 0.0321" geometry="depth: 0.11; height: 29; width: 29" rotation="90 90 0">ceiling</a-entity>
+       <a-plane id="ceiling_tilesss" color="#614119" position="0 4.9553 0.14276" rotation="90 0 0" width="3.66" height="3.35" material="repeat: 7.5 13.1; color: #fff; src: #ceiling_tile" geometry="height: 28.55; width: 29" marble=""></a-plane>
 
-       <a-entity id="wall_mirror" gltf-model="../assets/3D_wall_mirror/wall_mirror/scene.gltf" position="14.16817 2.49469 11.85985" rotation="0 180 0"></a-entity>
+
+       
 
         <a-sky color="lightblue"></a-sky>
 
