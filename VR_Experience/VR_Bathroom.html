@@ -9,7 +9,8 @@
     <script src="https://cdn.jsdelivr.net/npm/aframe-blink-controls/dist/aframe-blink-controls.min.js"></script>
 </head>
 <body>
-    <a-scene>
+    <a-scene reflection="directionalLight:a-light#dirlight;">
+        <a-light id="dirlight" intensity="1" light="castShadow:true;type:directional" position="1 1 1"></a-light>
         <a-assets>
 
             <a-asset-item id="Powder_Plus_Logo" src="lab05/models/powderplus_logo.gltf"></a-asset-item> 
@@ -172,6 +173,9 @@
         <a-entity id="sofa2" gltf-model="../assets/3D_sofa/sofa/scene.gltf" scale="3.2 3.2 3.2" position="-13.09262 0.05716 -9.16577" rotation="0 90 0"></a-entity>
 
         <!--toilet-->
+
+        <!--mirror-->
+        <a-entity id="mirror" gltf-model="../assets/3D_wall_mirror/wall_mirror/scene.gltf" position="14.15756 2.34832 12.03677"></a-entity>
         
 
         <!--plants-->
@@ -236,6 +240,10 @@
        
 
         <a-sky color="lightblue"></a-sky>
+
+        
+	        
+       
 
     </a-scene>
 </body>
