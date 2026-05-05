@@ -1,0 +1,11 @@
+Model Information:
+* title:	Laundry Basket
+* source:	https://sketchfab.com/3d-models/laundry-basket-f3b46023d6444a86915413949cffded1
+* author:	duckSPLASH (https://sketchfab.com/ducksplash)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Laundry Basket" (https://sketchfab.com/3d-models/laundry-basket-f3b46023d6444a86915413949cffded1) by duckSPLASH (https://sketchfab.com/ducksplash) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
