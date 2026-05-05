@@ -1,0 +1,11 @@
+Model Information:
+* title:	Baby Changing Station
+* source:	https://sketchfab.com/3d-models/baby-changing-station-9797847a2b02408592fe1b3d9c9c32a6
+* author:	queppa (https://sketchfab.com/queppa)
+
+Model License:
+* license type:	CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions must have the same license.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Baby Changing Station" (https://sketchfab.com/3d-models/baby-changing-station-9797847a2b02408592fe1b3d9c9c32a6) by queppa (https://sketchfab.com/queppa) licensed under CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
