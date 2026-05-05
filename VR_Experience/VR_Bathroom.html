@@ -41,6 +41,7 @@
             <img id="no_place_like" src="../assets/textures VR/no_place_like_home.png" alt="">
             <img id="see_something" src="../assets/textures VR/see_something.png" alt="">
             <img id="ceiling_tile" src="../assets/textures VR/ceiling_tile.jpeg" alt="">
+            <img id="plaque_on_inside" src="../assets/textures VR/plaque on inside.png" alt="">
 
 
 
@@ -238,12 +239,14 @@
     <!--Center island-->
        <a-entity id="center_island">
        <a-entity id="sink_wall" mixin="wall primary" position="0.1168 2.14848 0.85181" geometry="depth: 0.11; height: 4.22; width: 13.53" rotation="0 90 0">top pf stall</a-entity>
+       <a-entity id="mirror_middle" gltf-model="../assets/3D_wall_mirror/wall_mirror/scene.gltf" position="-0.01792 2.11394 0.83638" scale="1 0.8 3.69"></a-entity>
            <a-entity id="vanity_set" position="0 0 0.32093">
             <a-entity id="vanity" gltf-model="../assets/3D_vanity/vanity/scene.gltf" position="0.97866 0 5.66908" rotation="0 90 0"></a-entity>
             <a-entity id="vanity-2" gltf-model="../assets/3D_vanity/vanity/scene.gltf" position="0.97866 0 3.07693" rotation="0 90 0"></a-entity>
             <a-entity id="vanity-3" gltf-model="../assets/3D_vanity/vanity/scene.gltf" position="0.97866 0 0.48916" rotation="0 90 0"></a-entity>
             <a-entity id="vanity-4" gltf-model="../assets/3D_vanity/vanity/scene.gltf" position="0.97866 0 -2.10565" rotation="0 90 0"></a-entity>
             <a-entity id="vanity-5" gltf-model="../assets/3D_vanity/vanity/scene.gltf" position="0.97866 0 -4.69188" rotation="0 90 0"></a-entity>
+            <a-plane id="plaque" material="opacity: 0.5; transparent: true; src: #plaque_on_inside" geometry="height: 4.69; width: 6.97" position="0.91691 1.33605 7.41274" scale="0.19 0.4 0.88"></a-plane>
             </a-entity>
 
     <!--baby change-->
