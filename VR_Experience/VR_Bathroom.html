@@ -68,6 +68,7 @@
              <a-asset-item id="speaker" src="../assets/3D_speaker/ceiling_speaker/scene.gltf"></a-asset-item>
              <a-asset-item id="laudry_basket" src="../assets/3D_laundry/laundry_basket/scene.gltf"></a-asset-item>
              <a-asset-item id="trash_can" src="../assets/3D_trash/trash_can/scene.gltf"></a-asset-item>
+             <a-asset-item id="ceiling_light" src="../assets/3D_light/ceiling_light/scene.gltf"></a-asset-item>
              
 
 
@@ -185,7 +186,7 @@
        <a-entity id="sofa_by_entrance" gltf-model="../assets/3D_sofa/sofa/scene.gltf" scale="3.2 3.2 3.2" position="7.38863 0.05716 13.11091" rotation="0 180 0"></a-entity>
 
         <!--toilet-->
-        <a-entity id="toilet" gltf-model="../assets/3D_toilet/toilet/scene.gltf"></a-entity>
+        <a-entity id="toilet" gltf-model="../assets/3D_toilet/toilet/scene.gltf" position="12.37498 0 4.0647" scale="0.3 0.3 0.3" rotation="0 -90 0"></a-entity>
 
         <!--mirror-->
         <a-entity id="mirror" gltf-model="../assets/3D_wall_mirror/wall_mirror/scene.gltf" position="14.1723 2.47085 11.83122" scale="1 1.04 1.01"></a-entity>
@@ -263,10 +264,18 @@
 
             
      
-    <a-entity id="ceiling">
+  <a-entity id="ceiling" position="0 7.9034 0">
          <a-entity id="ceiling_box" mixin="wall primary" position="-0.00863 5.03182 0.0321" geometry="depth: 0.11; height: 29; width: 29" rotation="90 90 0">ceiling</a-entity>
        <a-plane id="ceiling_tilesss" color="#614119" position="0 4.9553 0.14276" rotation="90 0 0" width="3.66" height="3.35" material="repeat: 7.5 13.1; color: #fff; src: #ceiling_tile" geometry="height: 28.55; width: 29" marble=""></a-plane>
-    </a-entity> 
+       
+         <a-entity id="light_fixtures">
+        <a-entity id="ceiling_light" gltf-model="../assets/3D_light/ceiling_light/scene.gltf"></a-entity>
+        <a-light type="point" color="blue" position="0 5 0"></a-light>
+      </a-entity>
+
+    </a-entity>
+
+   
       
 
 
