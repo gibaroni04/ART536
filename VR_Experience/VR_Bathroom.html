@@ -7,7 +7,7 @@
     <script src="https://aframe.io/releases/1.7.1/aframe.min.js"></script>
      <script src="https://unpkg.com/aframe-extras@7.0.0/dist/aframe-extras.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/aframe-blink-controls/dist/aframe-blink-controls.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@7.2.0/dist/aframe-extras.min.js"></script>
+    
 </head>
 <body>
     <a-scene reflection="directionalLight:a-light#dirlight;">
@@ -83,7 +83,7 @@
 
          <a-entity id="player" position="0 1.6 0">
             <!-- camera -->
-            <a-entity id="camera" camera="" wasd-controls="" look-controls="" movement-controls="controls: keyboard, touch; speed: 0.3" position="0 1.49321 12.25172"></a-entity>
+            <a-entity id="camera" camera="" wasd-controls="" look-controls="" position="0 1.49321 12.25172"></a-entity>
             <!-- hand controls -->
             <a-entity  class="floor" id="left-hand" raycaster="objects: .floor" oculus-touch-controls="hand: left" blink-controls></a-entity>
             <a-entity  class="floor" id="right-hand" raycaster="objects: .floor" oculus-touch-controls="hand: right" blink-controls></a-entity>
